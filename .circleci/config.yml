@@ -5,5 +5,5 @@ jobs:
       - image: circleci/golang:1.9.7
     steps: 
       - checkout 
-      - run: go build -v -mod=readonly 
+      - run: go build -v 
  
