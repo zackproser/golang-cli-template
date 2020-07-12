@@ -19,6 +19,9 @@ jobs:
           name: "Fetch dependencies"
           command: >
             go mod download
+      - run: 
+          name: "Go build"
+          command: go build -v
       # Only run gofmt, vet & lint against the latest Go version
       - run:
           name: "Run golint"
