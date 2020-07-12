@@ -1,0 +1,12 @@
+###########################
+# Configuration 
+###########################
+#
+# Configure CLI behavior here by defining values that will be loaded into the Config 
+# struct at runtime 
+#
+name: "BoilerplateName-ReplaceMe"
+binaryname: "golang-cli-template"
+shortdescription: "A short description - replace me"
+longdescription: "A longer description of the program and what it does - replace me"
+loglevel: "debug"
